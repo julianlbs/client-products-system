@@ -1,0 +1,14 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": ["packages/web/client-products/env.d.ts", "packages/web/client-products/src/**/*", "packages/web/client-products/src/**/*.vue"],
+  "exclude": ["packages/web/client-products/src/**/__tests__/*"],
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["packages/web/client-products/src/*"]
+    }
+  }
+}
