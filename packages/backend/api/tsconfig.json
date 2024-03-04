@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist",
+		"module": "CommonJS", // commonjs will compile the javascript to require() imports
+		"target": "ES2020", // specify which ECMA version to target for compilation
+		"esModuleInterop": true, // when true, converts esModule import to commonjs for compatibility
+		"allowJs": true,
+		"strictNullChecks": true
+	}
+}
