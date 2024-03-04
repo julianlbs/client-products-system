@@ -3,12 +3,13 @@
   "version": "0.0.0",
   "description": "A system to list clients, products and associate products to clients",
   "scripts": {
-    "dev:web": "pnpm --filter client-products run dev"
+    "dev": "concurrently \"pnpm --filter client-products run dev\" \"pnpm --filter api run dev\""
   },
   "keywords": [],
   "author": "Julian Lima",
   "license": "ISC",
   "devDependencies": {
-    "git-commit-msg-linter": "^5.0.6"
+    "git-commit-msg-linter": "^5.0.6",
+    "concurrently": "8.2.2"
   }
 }
