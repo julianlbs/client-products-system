@@ -1,5 +1,5 @@
 {
-  "name": "client-products",
+  "name": "client-products-monorepo",
   "version": "0.0.0",
   "description": "A system to list clients, products and associate products to clients",
   "scripts": {
